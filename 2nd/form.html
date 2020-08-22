@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css_form.css">
+    <title>FCC: Survey Form</title>  
+  </head>
+  
+  <body>
+    <div class="heading">
+      <h3> Survey Form </h3>
+      <h3> For Anime Lovers </h3>
+      <h3>Thank you for taking the time to help us improve the platform </h3>
+    </div>
+    
+
+    <div class="main">
+      
+      <form id="form">
+        <div>
+        <label for="Name" class="text">Name</label>
+        <input type="text" name="Name" placeholder="Enter your Name" class="input">
+        <label for="Email" class="text">Email</label>
+        <input type="text" name="Email" placeholder="Enter your Email" class="input">
+        <label for="Age" class="text">Age (optional)</label>
+        <input type="text" name="Age" placeholder="Enter your Age" class="input">
+        <label for="Current Role" class="text">Which option best describe your current role?</label>
+        <select name="Current Role" class="input">
+          <option>Select current role</option>
+          <option>Student</option>
+          <option>Full Time Job</option>
+          <option>Full Time Learner</option>
+          <option>Others</option>
+        </select>
+      </div>
+        <label for="Recommend" class="text">What is your favorite anime genre?</label>
+        <div class="radio-btn text">
+          
+          <label>
+            <input type="radio" name="Recommend" value="Definitely" checked>Action 
+          </label><br>
+          
+          <label>
+            <input type="radio" name="Recommend" value="May Be">Thriller
+          </label><br>
+
+          <label>
+            <input type="radio" name="Recommend" value="Not Sure">Comedy
+          </label><br>
+
+          <label>
+            <input type="radio" name="Recommend" value="Not Sure">Shonen
+          </label>
+        </div><br>
+        <label for="Name" class="text">Name some of your favorite animes</label>
+        <input type="text" name="Name" placeholder="Favorite movies" class="input">
+        <br>
+
+        <button class="submit_btn"> Submit</button>
+
+      </form>
+
+    </div>
+
+
+  </body>
+  
+</html>  
